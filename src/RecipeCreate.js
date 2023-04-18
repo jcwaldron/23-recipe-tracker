@@ -36,22 +36,22 @@ function RecipeCreate({addRecipe}) {
       <table>
         <tbody>
           <tr>
-            <td>
+            <td id="nameID">
               <input id="name" name="name" required={true} placeholder="Name" onChange={handleInput} />
             </td>
-            <td>
+            <td id="cuisineID">
              <input id="cuisine" name="cuisine" required={true} placeholder="Cuisine" onChange={handleInput} />
             </td>
-            <td>
+            <td id="photoID">
              <input id="photo" name="photo" type="url" required={true} placeholder="URL" onChange={handleInput} />
             </td>
-            <td>
+            <td id="ingredientsID">
              <textarea id="ingredients" name="ingredients" required={true} placeholder="Ingredients" onChange={handleInput} />
             </td>
-            <td>
+            <td id="preparationID">
              <textarea id="preparation" name="preparation" required={true} placeholder="Preparation" onChange={handleInput} />
             </td>
-            <td>
+            <td id="submBtnID">
               <button type="submit">Create</button>
             </td>
           </tr>

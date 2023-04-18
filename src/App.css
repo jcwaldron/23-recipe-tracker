@@ -81,3 +81,15 @@ th {
 }
 
 /* Column size for tbody */
+
+#nameID, #cuisineID, #photoID, #submBtnID {
+  width: 10%;
+}
+
+#ingredientsID, #preparationID {
+  width: 30%;
+}
+
+input, textarea {
+  width: 95%;
+}
